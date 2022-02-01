@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Timer</title>
+</head>
+<body>
+    <div id="container">
+        <div id="timer">
+            <form id='strTimer' name='strTimer' method='post'>
+                <select size='1' name='hours' id='hours'></select>
+                <select size='1' name='minutes' id='minutes'></select>
+                <select size='1' name='seconds' id='seconds'></select>
+                <input id='start'type='submit' value='Start' />
+                <input id='stop' type='reset' value='Stop' />
+            </form>
+            <hr/>
+            <div id='display'>00:00:00</div>
+        </div>
+    </div>
+    <script src='timer.js'></script>
+</body>
+</html>
